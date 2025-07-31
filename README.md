@@ -76,11 +76,12 @@ model.py: Model building, training, and evaluation utilities.
 
 ## Visualization
 Top 3 predicted signs are visualized with confidence bars on each frame:
-
+```text
 🟩 HELLO   |███████████████████
 🟧 YES     |██████
 🟥 THANKS  |█
-🤖 Model Architecture
+```
+## Model Architecture
 Default model is a stacked LSTM network with dropout and dense layers. Alternative architectures (GRU, Bidirectional LSTM) are also available via:
 
 ```python
